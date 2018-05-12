@@ -5,13 +5,13 @@ import React from 'react';
 const VideoListItem = ({video}) => {
   {/*const video = props.video*/}
 
-  const imgUrl = video.snippet.thumbnails.default.url;
+  const imageUrl = video.snippet.thumbnails.default.url;
 
   return (
     <li className="list-group-item">
       <div className="video-list media">
         <div className="media-left">
-          <img className="media-object" src={imgUrl}/>
+          <img className="media-object" src={imageUrl}/>
         </div>
 
         <div className="media-body">
